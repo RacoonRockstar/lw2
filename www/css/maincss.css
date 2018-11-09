@@ -1,0 +1,41 @@
+
+
+
+
+
+ h1,h2,h3,h4,h5,h6 {
+	font-family: "Raleway";
+	font-weight: 300;
+	color: #f85c37;
+}
+p {
+	line-height:28px;
+	margin-bottom:25px;
+}
+.centered{
+
+    text-align: center;
+
+}
+.navbar-inverse .navbar-brand{
+    color:#999;
+    font-weight: bolder;
+    font-size: 22px;
+
+    letter-spacing: 1px;
+}
+#headerwrap{
+    background: url(../img/14977241864797_1920x1200.jpg) no-repeat center top;
+    marqin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 800px;
+    width:100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+  

@@ -1,0 +1,256 @@
+.container {
+  position: relative;
+  margin-top: 16px;
+  width: 500px;
+  height: 300px;
+  text-align: left;
+  background-color: whitesmoke;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+
+.container:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+img {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  left: 0;
+}
+
+.title {
+  position: absolute;
+  width: 500px;
+  left: 0;
+  top: 120px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  z-index: 1;
+  transition: top .5s ease;
+}
+
+.container:hover .title {
+  top: 90px;
+}
+
+.button {
+  position: absolute;
+  width: 500px;
+  left:0;
+  top: 180px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a {
+  width: 200px;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  border: solid 2px white;
+  z-index: 1;
+}
+
+.container:hover .button {
+  opacity: 1;
+}
+#headerwrap{
+  background: url(../img/1508080978_wallpapers-nature-013.jpg) no-repeat center top;
+  marqin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 800px;
+  width:100%;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+#mini {
+  opacity:0.8;
+  margin-left: 4%;
+  margin-top: 4%;
+  }
+  .title1 {
+    position: absolute;
+    width: 460px;
+    left: 8;
+    top: 100px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #684b3e;
+  }
+  .text1 {
+    position: absolute;
+    width: 560px;
+    left: 100px;
+    top: 155px;
+    font-weight: 500;
+    font-size: 28px;
+    text-align: left;
+    
+    color: #684b3e;
+  }
+  .container1 {
+    position: absolute;
+    margin-top: 16px;
+    left: 76px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(http://greenword.ru/images/2013/08/img_52010861293b5.jpg) no-repeat;
+    background-size: cover;
+  }
+  .container2 {
+    position: absolute;
+    margin-top: 16px;
+    left: 1208px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url( http://gorabbit.ru/upload/iblock/b94/b9452e0c552485e58c2ce9eac5b212bf.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  .container3 {
+    position: absolute;
+    margin-top: -448px;
+    left: 1208px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(  https://ru.best-wallpaper.net/wallpaper/1920x1440/1611/Guangxi-Li-River-Chinese-beautiful-landscape-mountains-sun-boats_1920x1440.jpg) no-repeat;
+    background-size: cover;
+  }
+  .container21 {
+    position: absolute;
+    margin-top: 16px;
+    left: 76px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(https://i.artfile.me/wallpaper/04-05-2012/1920x1080/goroda-istoricheskie-arhitekturnye-pamya-503440.jpg) no-repeat;
+    background-size: cover;
+  }
+  .container22 {
+    position: absolute;
+    margin-top: 16px;
+    left: 1208px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(https://www.indus.travel/upload_data/tour/bannerimage/banner_5a38259c8f85b_glimpse-of-myanmar.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  .container23 {
+    position: absolute;
+    margin-top: -448px;
+    left: 1208px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url( http://hello-world.fr/wp-content/uploads/2014/04/2014.03.25-Bagan-241.jpg) no-repeat;
+    background-size: cover;
+  }
+  .container31 {
+    position: absolute;
+    margin-top: 16px;
+    left: 76px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(https://img4.goodfon.ru/original/3840x2160/a/9f/priroda-peizazh-amerika-kanony-ssha-gory.jpg) no-repeat;
+    background-size: cover;
+  }
+  .container32 {
+    position: absolute;
+    margin-top: 16px;
+    left: 1208px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url(https://wallbox.ru/resize/1920x1080/wallpapers/main/201433/1fdb7866e94be04.jpg) no-repeat;
+    background-size: cover;
+  }
+  
+  .container33 {
+    position: absolute;
+    margin-top: -448px;
+    left: 1208px;
+    width: 650px;
+    height: 450px;
+    text-align: left;
+    background-color: whitesmoke;
+    background: url( https://img4.goodfon.ru/original/3840x2160/6/20/ssha-peizazh-amerika-skaly-priroda-kanony-1.jpg) no-repeat;
+    background-size: cover;
+  }
+  a.buttons {
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    padding-top: 9px;
+    position: absolute;
+    left: 240px;
+    top:17px;
+    color: #e9e9e9;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    margin: 20px auto;
+    font: normal 17px arial;
+  }
+  
+  a.buttons:not(.active) {
+    box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+    background-image: linear-gradient(#3b2751, #271739);
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+  }
+  
+  a.buttons:not(.active):hover,
+  a.buttons:not(.active):focus {
+    transition: color 200ms linear, text-shadow 500ms linear;
+    color: rgb(255, 157, 28);
+    text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+  }
+  a.buttons:not(:hover) {
+      transition: 0.6s;
+  }
+  .mapcont {
+    position: absolute;
+    margin-top: -463px;
+    left: 665px;
+    width: 450px;
+    height: 250px;
+    text-align: left;
+    background-color: whitesmoke;
+    
+    background-size: cover;
+  }
